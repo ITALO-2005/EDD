@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculadora</title>
+</head>
+<body>
+    <script>
+        var valor1 = prompt("Digite o primeiro valor:");
+        var operacao = prompt("Digite a operação (+, -, *, /):");
+        var valor2 = prompt("Digite o segundo valor:");
+
+        var resultado;
+        if (operacao == "+") {
+            resultado = (valor1 * 1) + (valor2 * 1); 
+        } 
+        
+        if (operacao == "-") {
+            resultado = valor1 - valor2;
+        }
+
+        if (operacao == "*") {
+            resultado = valor1 * valor2;
+        }
+
+        if (operacao == "/") {
+            resultado = valor1 / valor2;
+        }
+        alert("O resultado é: " + resultado);
+    </script>
+
+</body>
+</html>
